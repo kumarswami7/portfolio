@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praveen Babu Choppala</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Praveen Babu Choppala</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="publication.html">Publications</a></li>
+                <li><a href="activiti.html">Activities</a></li>
+                <li><a href="awards.html">Awareds</a></li>
+                <li><a href="reserch.html">Research</a></li>
+                <li><a href="others.html">Others</a></li>
+            </ul>
+        </div>
+    </nav>
+    <hr />
+    <nav id="hamburger-nav">
+        <div class="logo">Praveen Babu Choppala</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span style="color: white;"></span>
+                <span style="color: white;"></span>
+                <span style="color: white;"></span>
+            </div>
+            <div class="menu-list">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="publication.html" onclick="toggleMenu()">Publications</a></li>
+                    <li><a href="activiti.html" onclick="toggleMenu()">Activities</a></li>
+                    <li><a href="awards.html" onclick="toggleMenu()">Awareds</a></li>
+                    <li><a href="reserch.html" onclick="toggleMenu()">Research</a></li>
+                    <li><a href="others.html" onclick="toggleMenu()">Others</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img class="pics" src="./asserts/praveen_babu.jpg" alt="praveen babu profile pic" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1" style="color: white;">Hello, I'm</p>
+            <h1 class="title" style="color: white;">Praveen Babu Choppala</h1>  
+            <h1 class="title" style="color: white;">B.Tech., M.E., PhD</h1>
+            <p class="section__text__p2" style="color: white;"> professor</p>
+            <div class="btn-container">
+                <button class="btn btn-color-1" onclick="window.open('./asserts/Praveen_CV.pdf')">
+                    <p style="background: linear-gradient(to left,violet,indigo, green, yellow, orange, red);-webkit-background-clip: text;color: transparent;">Download CV</p>
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    <p style="background: linear-gradient(to left,violet,indigo, green, yellow, orange, red);-webkit-background-clip: text;color: transparent;">Contact Info</p>
+                </button>
+            </div>  
+        </div>
+    </section>
+    
+    <section id="about">
+        <p class="about_title multicolor">About me</p>
+        <p  class="info" style="color: white;">My delight is in unravelling the mysteries of nature through scientific thought and multidisciplinary research</p>
+        <div class="about_list">
+            <li><a href="#education">Eduaction</a></li>
+            <li><a href="#acadamicsummary">Academic Summary </a></li>
+            <li><a href="#experience">Experience </a></li>
+        </div>
+    </section>
+
+    <section id="intro">
+        <h1 class="multicolor">Introduction</h1><br />
+        <p class="para" style="color: white;">Hello, I am Praveen Babu Choppala, a dedicated and accomplished professional with a strong background in engineering and computer science. I hold a PhD in Engineering and Computer Science, along with a Master's in VLSI Design and a Bachelor's in Electronics & Communication Engineering.
+        Throughout my career, I have focused on scientific thought and multidisciplinary research, demonstrating my ability to unravel complex challenges. My academic summary includes significant achievements such as authoring 6 books, securing 6 patents, and contributing to numerous peer-reviewed publications. I also have 88 Google Scholar citations and an h-index of 6.
+        Professionally, I have held various positions, including Professor at Wellfare Institute of Science Technology and Management, Associate Professor at Anil Neerukonda Institute of Technology and Science, and Postdoctoral Fellow at the University of New South Wales, Sydney.
+        I am passionate about applying my expertise to create innovative solutions and have been involved in various research consultancy projects, including the development of smart systems and automation technologies. I am a Senior Member of the IEEE and have been actively involved in professional activities, including serving as Chairman of Board of Studies and Head of the Department.
+        My goal is to continue making meaningful contributions to my field through research, teaching, and innovation.</p>
+    </section><br /><br />
+
+    <section id="education">
+        <h1 class="multicolor">Education</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Degree</th>
+                    <th>Specialization</th>
+                    <th>Board/University</th>
+                    <th>CGPA/Percentage</th>
+                    <th>Year of Passing</th>
+                    <th>Merit/Award</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>PhD</td>
+                    <td>Engineering and Computer Science</td>
+                    <td>Victoria University of Wellington</td>
+                    <td>N/A</td>
+                    <td>11/12/2014</td>
+                    <td>Doctoral Completion Award</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>M.E.</td>
+                    <td>VLSI Design</td>
+                    <td>Karunya University</td>
+                    <td>9.28 CGPA</td>
+                    <td>05/07/2008</td>
+                    <td>Chancellor Award & First with Distinction</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>B.Tech</td>
+                    <td>Electronics & Communication Engineering</td>
+                    <td>JNTU, Hyderabad</td>
+                    <td>70.99</td>
+                    <td>01/06/2005</td>
+                    <td>First with Distinction</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Intermediate</td>
+                    <td>Maths, Physics, Chemistry</td>
+                    <td>Sri Chaitanya Junior College, Visakhapatnam</td>
+                    <td>86.20%</td>
+                    <td>06/06/2001</td>
+                    <td>First with Distinction</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>S.S.C</td>
+                    <td>School</td>
+                    <td>S.F.S. High School, Visakhapatnam</td>
+                    <td>79.50%</td>
+                    <td>10/06/1999</td>
+                    <td>First</td>
+                </tr>
+            </tbody>
+        </table>
+    </section><br /><br /><br />
+    
+    <section id="experience">
+        <h1 class="multicolor">Experience</h1><br />
+        <table>
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Organisation</th>
+                    <th>Designation</th>
+                    <th>Period</th>
+                    <th>Duration</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Wellfare Institute of Science Technology and Management, Visakhapatnam</td>
+                    <td>Professor. Dept. of E.C.E.</td>
+                    <td>18/4/2019- Present</td>
+                    <td>4Y 3M</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Anil Neerukonda Institute of Technology and Science, Visakhapatnam</td>
+                    <td>Associate Professor, Dept. of E.C.E.</td>
+                    <td>20/11/2017-17/04/2019</td>
+                    <td>1Y 5M</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>University of New South Wales, Sydney, Australia</td>
+                    <td>Postdoctoral Fellow (equivalent Assistant Professor Scale)</td>
+                    <td>16/09/2015-15/08/2017</td>
+                    <td>2Y OM</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Victoria University of Wellington, New Zealand</td>
+                    <td>Postdoctoral Research Assistant</td>
+                    <td>20/07/2014-10/07/2015</td>
+                    <td>1Y OM</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Victoria University of Wellington, New Zealand</td>
+                    <td>Academic Tutor & Full-time Research Scholar</td>
+                    <td>01/07/2011-26/06/2014</td>
+                    <td>3Y OM</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Raghu Engineering College, Visakhapatnam</td>
+                    <td>Associate Professor</td>
+                    <td>21/03/2011-28/04/2011</td>
+                    <td>0Y 1M</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Raghu Engineering College, Visakhapatnam</td>
+                    <td>Assistant Professor</td>
+                    <td>27/08/2008-20/03/2011</td>
+                    <td>2Y 7M</td>
+                </tr>
+            </tbody>
+        </table>
+    </section><br /><br /><br />
+
+    <section id="acadamicsummary">
+        <h1 class="multicolor">Academic Summary</h1><br />
+        <table>
+          <thead>
+              <tr>
+                  <th>Count/Description</th>
+                  <th>Item</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>06</td>
+                  <td>Books</td>
+              </tr>
+              <tr>
+                  <td>06</td>
+                  <td>Patent grants (1) / patent publications (5)</td>
+              </tr>
+              <tr>
+                  <td>88</td>
+                  <td>Google Scholar impact 88 citations</td>
+              </tr>
+              <tr>
+                  <td>06</td>
+                  <td>Google Scholar h-index</td>
+              </tr>
+              <tr>
+                  <td>56</td>
+                  <td>Peer Reviewed Journal/conference proceedings</td>
+              </tr>
+              <tr>
+                  <td>10</td>
+                  <td>Countries visited on academic purposes</td>
+              </tr>
+              <tr>
+                  <td>5,00,000</td>
+                  <td>Worth industrial research projects</td>
+              </tr>
+              <tr>
+                  <td>06</td>
+                  <td>Academic awards totalling over INR 44,00,000</td>
+              </tr>
+              <tr>
+                  <td>Senior Member</td>
+                  <td>IEEE</td>
+              </tr>
+          </tbody>
+      </table>
+    </section><br /><br /><br /><hr />
+    <section id="contact">
+        <div class="contact-bar">
+            <div class="multicolor footer_2">Got in Touch<br />
+Contact</div>
+        </div>
+        <div class="footer-bar" >
+            <div class="footer bg-gray-200">
+              <div class="block-bar">
+                <div><b>Name:</b> Praveen Babu Choppala</div>
+                <div><b>Date of Berth:</b> 31/08/1984</div>
+                <div><b>Language:</b> English, Telugu, Hindi</div>
+                <div><b>Natinality:</b> Indian</div>
+              </div>
+              <div class="block-bar">
+                <div><b>Address:</b> DNo.1-111-16, MVP Colony, Visakhapatnam 530017 </div>
+                <div><b>Phone:</b>+91 7893651912 </div>
+                <div><b>Website:</b> <a href="https://sites.google.com/view/praveen-choppala/">https://sites.google.com/view/praveen-choppala/</a></div>
+                <div><b>Email:</b> <a href="praveen.b.choppala@gmail.com" >praveen.b.choppala@gmail.com</a></div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

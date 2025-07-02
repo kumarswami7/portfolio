@@ -1,0 +1,31 @@
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #666;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #ddd;
+}
+.coactivity{
+    text-align: justify;
+    gap: 2rem;
+}
+.information_1{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    text-align: justify;
+}
+.information_1 button{
+    width: 10rem;
+    height: 2rem;
+    box-shadow: none;
+    border-radius: 20px;
+}

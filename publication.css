@@ -1,0 +1,51 @@
+.publication_list{
+  font-size: 15px;
+}
+.item-list {
+    list-style-type: decimal;
+    padding-left: 1.5rem;
+  }
+  
+  .item-list li {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  .multicolor {
+  font-weight: bold;
+  background: linear-gradient(90deg, #ff0000, #ff9900, #33cc33, #3399ff, #9933ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+  .item-list b {
+    font-weight: bold; 
+  }
+  .item-list p{
+    color: #fff;
+  }
+  
+  .item-list a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .item-list a:hover {
+    text-decoration: underline;
+  }
+  section{
+    height: 30vmin;
+  }
+  .list{
+    display: flex;
+    justify-content: space-between;
+  }
+  .list li{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 20px;
+  }
+  .imgs3{
+    display: flex;
+    justify-content: space-between;
+}

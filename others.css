@@ -1,0 +1,44 @@
+#others {
+    margin-top: 30px;
+}
+
+#others h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#others h3 {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+#others h4 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#others table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+#others table, #others th, #others td {
+    border: 1px solid #999;
+    padding: 8px;
+    text-align: left;
+}
+
+#others th {
+    background-color: #f0f0f0;
+}
+
+#others td p {
+    margin: 5px 0;
+}
+#others a{
+    color: blue;
+}
+p{
+    color: white;
+}

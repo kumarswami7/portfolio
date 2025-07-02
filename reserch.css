@@ -1,0 +1,39 @@
+.research_name{
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+#department-head-project-leader {
+    margin-top: 30px;
+}
+
+#department-head-project-leader h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#department-head-project-leader ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#department-head-project-leader li {
+    margin-bottom: 5px; /* Add spacing between list items */
+}
+.sec1{
+    color: #fff;
+    text-align: justify;
+}
+.imags{
+    display: flex;
+    justify-content: center;
+    padding-left: 300px;
+}
+.imags2{
+    padding-left: 170px;
+}
+.imgs3{
+    display: flex;
+    justify-content: space-between;
+}

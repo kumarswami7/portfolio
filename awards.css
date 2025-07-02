@@ -1,0 +1,167 @@
+#awards {
+    margin-top: 30px;
+}
+
+#awards h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#awards table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+#awards table, #awards th, #awards td {
+    border: 1px solid #999;
+    padding: 8px;
+    text-align: left;
+}
+
+#awards th {
+    background-color: #f0f0f0;
+}
+
+#awards td:nth-child(1) {
+    width: 5%; /* Adjust as needed */
+}
+
+#awards td:nth-child(2) {
+    width: 45%; /* Adjust as needed */
+}
+
+#awards td:nth-child(3) {
+    width: 35%; /* Adjust as needed */
+}
+
+#awards td:nth-child(4) {
+    width: 15%; /* Adjust as needed */
+}
+
+#invited-talks {
+    margin-top: 30px;
+}
+
+#invited-talks h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#invited-talks table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+#invited-talks table, #invited-talks th, #invited-talks td {
+    border: 1px solid #999;
+    padding: 8px;
+    text-align: left;
+}
+
+#invited-talks th {
+    background-color: #f0f0f0;
+}
+
+#invited-talks td:nth-child(1) {
+    width: 5%; /* Adjust as needed */
+}
+
+#invited-talks td:nth-child(2) {
+    width: 55%; /* Adjust as needed */
+}
+
+#invited-talks td:nth-child(3) {
+    width: 25%; /* Adjust as needed */
+}
+
+#invited-talks td:nth-child(4) {
+    width: 15%; /* Adjust as needed */
+}
+
+#workshops-fdps {
+    margin-top: 30px;
+}
+
+#workshops-fdps h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#workshops-fdps table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+#workshops-fdps table, #workshops-fdps th, #workshops-fdps td {
+    border: 1px solid #999;
+    padding: 8px;
+    text-align: left;
+}
+
+#workshops-fdps th {
+    background-color: #f0f0f0;
+}
+
+#workshops-fdps td:nth-child(1) {
+    width: 10%; /* Adjust as needed */
+}
+
+#workshops-fdps td:nth-child(2) {
+    width: 90%; /* Adjust as needed */
+}
+
+
+#workshops-fdps {
+    margin-top: 30px;
+}
+
+#workshops-fdps h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#workshops-fdps ul {
+    list-style-type: disc; /* Use bullet points */
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+#workshops-fdps li {
+    margin-bottom: 5px; /* Add spacing between list items */
+}
+
+#phd-supervision {
+    margin-top: 30px;
+}
+
+#phd-supervision h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#phd-supervision table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+#phd-supervision table, #phd-supervision th, #phd-supervision td {
+    border: 1px solid #999;
+    padding: 8px;
+    text-align: left;
+}
+
+#phd-supervision th {
+    background-color: #f0f0f0;
+}
+
+/* Adjust column widths as needed */
+#phd-supervision td:nth-child(1) { width: 5%; }
+#phd-supervision td:nth-child(2) { width: 15%; }
+#phd-supervision td:nth-child(3) { width: 10%; }
+#phd-supervision td:nth-child(4) { width: 15%; }
+#phd-supervision td:nth-child(5) { width: 15%; }
+#phd-supervision td:nth-child(6) { width: 40%; }
